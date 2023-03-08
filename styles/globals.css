@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, 'Nunito Sans', sans-serif;;
+}
+
+:root {
+  --root-width: 1416px;
+  --btn-add-c-bl: blue;
+  --btn-add-c-pu: #6400b8;
+  --br-radius-stat-8: 8px;
+  --br-radius-stat-30: 30px;
+  --full-width: 100%;
+  --main-font-size: 16px;
+  --link-font-size: 13px;
+  --prod-old-font-size: 12px;
+  --prod-font-size: 17px;
+  --price-prod-font-size: 14px;
+  --btn-add-cart-font-size: 13px;
+  --font-family: "Inter",sans-serif;
+  --catalog-font-size: 18px;
+  --link-color: #a436ff;
+  --red: #f55;
+  --theme-bgc: #fff;
+  --link-c: #6400b8;
+  --text-c: #000;
+  --br-radius: 8px;
+  --br-r-radius: 0px;
+  --br-c-prod: none;
+}
+
+#__next{
+  height: 100%;
+  margin: 0px auto;
+  width: var(--root-width);
+  min-width: 1416px;
+  max-width: 1416px;
+}
+
+* {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.os-theme-dark.os-scrollbar>.os-scrollbar-track > .os-scrollbar-handle {
+  background: var(--btn-add-c-pu) !important;
+  opacity: .6;
+  height: 87% !important;
+}
+
+os-scrollbar os-scrollbar-vertical os-theme-dark os-scrollbar-handle-interactive os-scrollbar-visible {
+  margin-right: 20px;
+}
+
+.os-theme-dark.os-scrollbar-vertical, .os-theme-light.os-scrollbar-vertical {
+  bottom: 0px !important;
+}
+
+.gfhIdsf_w3DE {
+  fill: var(--text-c);
+  z-index: -1;
+}
+
